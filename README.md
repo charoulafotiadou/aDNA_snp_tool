@@ -76,8 +76,8 @@ Outputs:
 
 ## Example Workflow
 ```bash
-# Step 1: Identify SNPs per node
-python identify_snps_per_node.py alignment.fasta node_mapping.json snps.tsv
+# Step 1: Identify SNPs per node with rCRS as an outgroup
+python identify_snps_per_node.py alignment.fasta node_mapping.json rCRS snps.tsv
 
 # Step 2: Analyze BAM for read-level SNP support
 python analyse_snp_reads.py sample.bam snps.tsv results/sample
