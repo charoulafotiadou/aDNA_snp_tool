@@ -67,9 +67,12 @@ Outputs:
 }
 ```
 **node_snps.tsv** output format
-|Node|Position|Reference|DerivedAllele|
-|NodeA|152|T|C|
-|NodeB|263|A|G|
+
+| Node  | Position | Reference | DerivedAllele |
+|-------|----------|-----------|----------------|
+| NodeA | 152      | T         | C              |
+| NodeB | 263      | A         | G              |
+| NodeA | 301      | C         | T              |
 
 ## Example Workflow
 ```bash
