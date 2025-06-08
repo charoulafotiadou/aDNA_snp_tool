@@ -25,7 +25,7 @@ A set of tools for identifying and analyzing phylogenetically informative SNPs a
 
 ```bash
 pip install pandas pysam biopython
-
+```
 ---
 
 ## Usage
@@ -34,6 +34,7 @@ pip install pandas pysam biopython
 Script: identify_snps_per_node.py
 ```bash
 python3 identify_snps_per_node.py <alignment.fasta> <node_mapping.json> <outgroup> <output_snps.tsv>
+```
 - alignment.fasta: Multiple sequence alignment including outgroup reference.
 - node_mapping.json: JSON dictionary mapping nodes to sample IDs.
 - outgroup: Name of the outgroup.
@@ -44,6 +45,7 @@ Script: analyse_snp_reads.py
 Given a BAM file and a node SNP definition file, this script analyzes read support, damage, and coverage.
 ```bash
 python3 analyze_snp_reads.py <file.bam> <node_snps.tsv> <output_prefix>
+```
 - file.bam: Aligned sequencing reads (e.g., for ancient mtDNA).
 - node_snps.tsv: Output from identify_snps_per_node.py.
 - output_prefix: Prefix for output files.
@@ -59,7 +61,7 @@ node_mapping.json example
   "NodeA": ["Sample1", "Sample2"],
   "NodeB": ["Sample3", "Sample4"]
 }
-
+```
 node_snps.tsv output format
 |Node|Position|Reference|DerivedAllele|
 |NodeA|152|T|C|
@@ -72,6 +74,7 @@ python identify_snps_per_node.py alignment.fasta node_mapping.json snps.tsv
 
 # Step 2: Analyze BAM for read-level SNP support
 python analyse_snp_reads.py sample.bam snps.tsv results/sample
+```
 
 ## Applications
 - Ancient DNA analysis (e.g., identifying haplogroups from degraded mtDNA)
