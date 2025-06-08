@@ -31,7 +31,9 @@ pip install pandas pysam biopython
 ## Usage
 
 **1. Identify Node-Specific SNPs**
+
 Script: **identify_snps_per_node.py**
+
 ```bash
 python3 identify_snps_per_node.py <alignment.fasta> <node_mapping.json> <outgroup> <output_snps.tsv>
 ```
@@ -41,7 +43,9 @@ python3 identify_snps_per_node.py <alignment.fasta> <node_mapping.json> <outgrou
 - output_snps.tsv: Output file with SNPs per node (Position, Reference, Derived).
 
 **2. Analyse Reads Covering SNPs**
+
 Script: **analyse_snp_reads.py**
+
 Given a BAM file and a node SNP definition file, this script analyzes read support, damage, and coverage.
 ```bash
 python3 analyze_snp_reads.py <file.bam> <node_snps.tsv> <output_prefix>
