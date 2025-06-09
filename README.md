@@ -42,6 +42,9 @@ python3 identify_snps_per_node.py <alignment.fasta> <node_mapping.json> <outgrou
 - outgroup: Name of the outgroup.
 - output_snps.tsv: Output file with SNPs per node (Position, Reference, Derived).
 
+⚠️ **Warning:** This script is not designed to mind for gaps and alignment issues of low covered sequences. Make sure to include only high quality sequences to avoid misalignments. If this occurs, the next script will have issue aligning correctly with the reference in the BAM file. Please always check with a visualizer if the identified SNPs within the reads are where they were expected.
+
+
 **2. Analyse Reads Covering SNPs**
 
 Script: **analyse_snp_reads.py**
