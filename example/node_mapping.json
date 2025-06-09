@@ -1,1 +1,12 @@
-
+{
+    "A": ["Denisova5", "Denisova15", "Scladina", "Denisova17", "Chagyrskaya8", "ElSidron1253", "Feldhofer2", "GoyetQ305-4", "GoyetQ56-1", "Spy94a", "Vindija33.16", "Vindija33.19", "Vindija33.17", "Mezmaiskaya2", "Mezmaiskaya3", "Feldhofer1", "Vindija33.25", "Fonds-de-Foret", "GoyetQ57-2", "LesCottesZ4-1514", "Mezmaiskaya1", "Denisova11", "Stajnia", "Hohlenstein-Stadel", "Okladnikov2"],
+    "B": ["Denisova5", "Denisova15", "Scladina", "Denisova17", "Chagyrskaya8", "ElSidron1253", "Feldhofer2", "GoyetQ305-4", "GoyetQ56-1", "Spy94a", "Vindija33.16", "Vindija33.19", "Vindija33.17", "Mezmaiskaya2", "Mezmaiskaya3","Feldhofer1", "Vindija33.25", "Fonds-de-Foret", "GoyetQ57-2", "LesCottesZ4-1514", "Mezmaiskaya1", "Denisova11", "Stajnia", "Okladnikov2"],
+    "C": ["Denisova17", "Chagyrskaya8", "ElSidron1253", "Feldhofer2", "GoyetQ305-4", "GoyetQ56-1", "Spy94a", "Vindija33.16", "Vindija33.19", "Vindija33.17", "Mezmaiskaya2", "Mezmaiskaya3","Feldhofer1", "Vindija33.25", "Fonds-de-Foret", "GoyetQ57-2", "LesCottesZ4-1514", "Mezmaiskaya1", "Denisova11", "Stajnia", "Okladnikov2"],
+    "D": ["Chagyrskaya8", "ElSidron1253", "Feldhofer2", "GoyetQ305-4", "GoyetQ56-1", "Spy94a", "Vindija33.16", "Vindija33.19", "Vindija33.17", "Mezmaiskaya2", "Mezmaiskaya3","Feldhofer1", "Vindija33.25", "Fonds-de-Foret", "GoyetQ57-2", "LesCottesZ4-1514", "Mezmaiskaya1", "Denisova11", "Stajnia", "Okladnikov2"],
+    "E": ["Chagyrskaya8", "ElSidron1253", "Feldhofer2", "GoyetQ305-4", "GoyetQ56-1", "Spy94a", "Vindija33.16", "Vindija33.19", "Vindija33.17", "Mezmaiskaya2", "Feldhofer1", "Vindija33.25", "Fonds-de-Foret", "GoyetQ57-2", "LesCottesZ4-1514", "Denisova11", "Okladnikov2"],
+    "F": ["ElSidron1253", "Feldhofer2", "GoyetQ305-4", "GoyetQ56-1", "Spy94a", "Vindija33.16", "Vindija33.19", "Vindija33.17", "Mezmaiskaya2", "Feldhofer1", "Vindija33.25", "Fonds-de-Foret", "GoyetQ57-2"],
+    "G": ["GoyetQ56-1", "Spy94a", "Vindija33.16", "Vindija33.19", "Vindija33.17", "Feldhofer1", "Vindija33.25", "Fonds-de-Foret", "GoyetQ57-2", "ElSidron1253", "Mezmaiskaya2"],
+    "H": ["GoyetQ56-1", "Spy94a", "Vindija33.16", "Vindija33.19", "Vindija33.17", "Feldhofer1", "Vindija33.25", "Fonds-de-Foret", "GoyetQ57-2"],
+    "I": ["GoyetQ56-1", "Spy94a", "Vindija33.16", "Vindija33.19", "Vindija33.17"],
+    "J": ["GoyetQ56-1", "Spy94a"]
+}
