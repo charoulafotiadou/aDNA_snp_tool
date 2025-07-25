@@ -53,12 +53,11 @@ Given a BAM file and a node SNP definition file, this script analyzes read suppo
 ```bash
 python3 analyze_snp_reads.py <file.bam> <node_snps.tsv> <output_prefix>
 ```
-- file.bam: Aligned sequencing reads (e.g., for ancient mtDNA).
+- bam_list: Path to a text file containing paths to BAM files (one per line)
 - node_snps.tsv: Output from identify_snps_per_node.py.
 - output_prefix: Prefix for output files.
 Outputs:
-- <prefix>_snp_read_details.csv: Per-read information (base, match, direction, deamination, etc.)
-- <prefix>_snp_summary.csv: Summary per node (coverage, % derived, etc.)
+- <prefix>_snp_analysis.xlsx: A 2-tabed excel. Tab 1: Per-read information (base, match, direction, deamination, etc.). Tab 2: Summary per bam file and per node (coverage, % derived, etc.)
 - <prefix>_snp_read_analysis_log_*.log: Log file with processing details
 
 ## File Format Details
@@ -83,7 +82,7 @@ Outputs:
 python identify_snps_per_node.py alignment.fasta node_mapping.json rCRS snps.tsv
 
 # Step 2: Analyze BAM for read-level SNP support
-python analyse_snp_reads.py sample.bam snps.tsv results/sample
+python analyse_snp_reads.py bam_list.txt snps.tsv results/sample
 ```
 
 ## Applications
